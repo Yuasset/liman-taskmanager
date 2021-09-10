@@ -89,7 +89,6 @@ class TaskManagerController
         ]);
         return respond($reStart);
     }
-    }
     function getServiceStatus()
     {
         validate([
